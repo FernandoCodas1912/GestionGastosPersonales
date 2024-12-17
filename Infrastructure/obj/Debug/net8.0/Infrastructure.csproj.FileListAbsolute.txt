@@ -1,0 +1,15 @@
+C:\Bootcamp\Expense\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Bootcamp\Expense\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Expense\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Bootcamp\Expense\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Bootcamp\Expense\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Bootcamp\Expense\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Bootcamp\Expense\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Bootcamp\Expense\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Bootcamp\Expense\Infrastructure\bin\Debug\net8.0\Core.dll
+C:\Bootcamp\Expense\Infrastructure\bin\Debug\net8.0\Core.pdb
+C:\Bootcamp\Expense\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Bootcamp\Expense\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Bootcamp\Expense\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Bootcamp\Expense\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Bootcamp\Expense\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
