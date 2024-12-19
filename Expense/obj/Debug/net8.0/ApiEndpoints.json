@@ -16,6 +16,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Expense.Controllers.ExpenseCategoryController",
+    "Method": "GetCategoryById",
+    "RelativePath": "ExpenseCategory/Category/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense.Controllers.ExpenseCategoryController",
+    "Method": "CreateCategory",
+    "RelativePath": "ExpenseCategory/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expenseCategoryDTO",
+        "Type": "Core.DTOs.ExpenseCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense.Controllers.ExpenseCategoryController",
+    "Method": "DeleteCategory",
+    "RelativePath": "ExpenseCategory/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense.Controllers.ExpenseCategoryController",
+    "Method": "GetCategories",
+    "RelativePath": "ExpenseCategory/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense.Controllers.ExpenseCategoryController",
+    "Method": "UpdateCategory",
+    "RelativePath": "ExpenseCategory/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "expenseCategoryDTO",
+        "Type": "Core.DTOs.ExpenseCategoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Expense.Controllers.UserController",
     "Method": "BlockUser",
     "RelativePath": "User/{id}/block",

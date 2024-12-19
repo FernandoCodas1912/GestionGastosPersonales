@@ -206,3 +206,4 @@ C:\Bootcamp\Expense\Expense\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication
 C:\Bootcamp\Expense\Expense\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
 C:\Bootcamp\Expense\Expense\bin\Debug\net8.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
 C:\Bootcamp\Expense\Expense\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Bootcamp\Expense\Expense\obj\Debug\net8.0\Expense.sourcelink.json

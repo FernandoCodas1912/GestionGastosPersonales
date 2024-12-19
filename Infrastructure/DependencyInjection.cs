@@ -33,6 +33,7 @@ namespace Infrastructure
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IExpenseCategoryRepository, ExpenseCategoryRepository>();
 
             return services;
         }
@@ -41,6 +42,8 @@ namespace Infrastructure
         {
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IExpenseCategoryService, ExpenseCategoryService>();
+
             
 
             return services;
