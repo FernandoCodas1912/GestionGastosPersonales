@@ -16,6 +16,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Expense.Controllers.ExpenseController",
+    "Method": "CreateExpense",
+    "RelativePath": "Expense/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "expenseDTO",
+        "Type": "Core.DTOs.ExpenseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense.Controllers.ExpenseController",
+    "Method": "DeleteExpense",
+    "RelativePath": "Expense/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense.Controllers.ExpenseController",
+    "Method": "GetExpenseById",
+    "RelativePath": "Expense/Expense/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense.Controllers.ExpenseController",
+    "Method": "GetExpenses",
+    "RelativePath": "Expense/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Expense.Controllers.ExpenseController",
+    "Method": "UpdateExpense",
+    "RelativePath": "Expense/Update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "expenseDTO",
+        "Type": "Core.DTOs.ExpenseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Expense.Controllers.ExpenseCategoryController",
     "Method": "GetCategoryById",
     "RelativePath": "ExpenseCategory/Category/{id}",

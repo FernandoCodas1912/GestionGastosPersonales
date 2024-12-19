@@ -100,10 +100,5 @@ namespace Expense.Controllers
                 return NotFound(new { message = "Categoría no encontrada." }); // Si no se encuentra, retorna 404
             }
         }
-
-        
-
-        
-
     }
 }

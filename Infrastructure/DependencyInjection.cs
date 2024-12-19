@@ -34,6 +34,7 @@ namespace Infrastructure
         {
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IExpenseCategoryRepository, ExpenseCategoryRepository>();
+            services.AddScoped<IExpenseRepository, ExpenseRepository>();
 
             return services;
         }
@@ -43,6 +44,7 @@ namespace Infrastructure
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IExpenseCategoryService, ExpenseCategoryService>();
+            services.AddScoped<IExpenseService, ExpenseService>();
 
             
 
