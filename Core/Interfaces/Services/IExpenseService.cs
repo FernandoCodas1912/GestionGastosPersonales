@@ -24,5 +24,8 @@ namespace Core.Interfaces.Services
 
         //// Eliminar
         Task DeleteExpenseAsync(int id);
+
+        // Paginación
+        Task<PagedExpenseResponseDTO> GetFilteredExpenseAsync(int page, int pageSize, string? search, int? expenseCategoryId, string? orderBy, string? orderDirection);
     }
 }

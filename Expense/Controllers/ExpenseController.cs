@@ -16,7 +16,7 @@ namespace Expense.Controllers
         [HttpPost("Create")]
         public async Task<IActionResult> CreateExpense([FromBody] ExpenseDTO expenseDTO)
         {
-            var userId = expenseDTO.UserId;  
+            var userId = expenseDTO.UserId;
             var expenseCategoryId = expenseDTO.ExpenseCategoryId;
 
             var createdExpense = await _expenseService.CreateExpenseAsync(expenseDTO, userId, expenseCategoryId);
@@ -91,6 +91,27 @@ namespace Expense.Controllers
             catch (Exception)
             {
                 return NotFound(new { message = "Gasto no encontrado." }); // Si no se encuentra, retorna 404
+            }
+        }
+
+        // Obtener gastos con filtros: página, tamaño de página, palabra clave en la descripción y categoría.
+        [HttpGet("ListFiltered")]
+        public async Task<IActionResult> GetFilteredExpenses(
+            [FromQuery] int page = 1,
+            [FromQuery] int pageSize = 10,
+            [FromQuery] string? search = null,
+            [FromQuery] int? expenseCategoryId = null,
+            [FromQuery] string? orderBy = null,
+            [FromQuery] string? orderDirection = null)
+        {
+            try
+            {
+                var filteredExpenses = await _expenseService.GetFilteredExpenseAsync(page, pageSize, search, expenseCategoryId, orderBy, orderDirection);
+                return Ok(filteredExpenses);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "Hubo un probema al obtener los gastos", error = ex.Message });
             }
         }
     }
